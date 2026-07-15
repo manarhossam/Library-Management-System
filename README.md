@@ -10,6 +10,7 @@ This project demonstrates how to design a clean, modular application using inher
 - Master C# fundamentals
 - Apply Object-Oriented Programming concepts
 - Practice designing reusable and maintainable code
+  
 - ## 📂 Project Structure
 
 LibraryManagementSystem/
@@ -27,3 +28,5 @@ LibraryManagementSystem/
 │   └── Library.cs           // Business logic
 │
 └── Program.cs               // Console UI & Menu
+
+
