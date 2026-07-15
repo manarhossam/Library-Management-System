@@ -11,22 +11,15 @@ This project demonstrates how to design a clean, modular application using inher
 - Apply Object-Oriented Programming concepts
 - Practice designing reusable and maintainable code
   
-- ## 📂 Project Structure
-
 LibraryManagementSystem/
 ├── Models/
-│   ├── LibraryItem.cs       // Abstract base class
-│   ├── Book.cs              // Inherits LibraryItem, implements ISearchable
-│   ├── Member.cs            // Implements ISearchable
-│   ├── PremiumMember.cs     // Inherits Member
-│   └── BorrowRecord.cs      // Borrow transaction
-│
+│   ├── LibraryItem.cs       ← abstract base class
+│   ├── Book.cs              ← inherits LibraryItem, implements ISearchable
+│   ├── Member.cs            ← implements ISearchable
+│   ├── PremiumMember.cs     ← inherits Member
+│   └── BorrowRecord.cs      ← transaction record
 ├── Interfaces/
 │   └── ISearchable.cs
-│
 ├── Services/
-│   └── Library.cs           // Business logic
-│
-└── Program.cs               // Console UI & Menu
-
-
+│   └── Library.cs           ← all business logic
+└── Program.cs               ← menu loop + user I/O
