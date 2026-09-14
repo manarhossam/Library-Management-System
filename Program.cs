@@ -32,8 +32,17 @@ namespace library
                 switch (number)
                 {
                     case 1:
-                        libaray.Addbook();
-                        break
+                        Console.Write("Author");
+                        string author = Console.ReadLine();
+                        Console.Write(" Year");
+                        int year = int.Parse(Console.ReadLine());
+                        Console.Write("Gener ");
+                        string gener = Console.ReadLine();
+                        Console.Write("Title");
+                        string title = Console.ReadLine();
+
+                        libaray.Addbook(author, year, gener, title);
+                        break;
 
                 }
 
