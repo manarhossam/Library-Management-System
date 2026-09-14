@@ -1,9 +1,30 @@
-Library Management System
+# 📚 Library Management System
 
-A C# Console-based Library Management System developed to practice and apply core Object-Oriented Programming (OOP) concepts.
+A console-based Library Management System built with **C#** using **Object-Oriented Programming (OOP)** principles.
 
-🚀 Project Overview
+##  Features
 
-This project simulates a simple library system where books and members can be managed, books can be borrowed and returned, and borrowing records can be tracked.
+* Add and manage books
+* Add and manage library members
+* Borrow and return books
+* Track book availability
+* Manage borrowing records
+* Check late returns
+* Input validation and exception handling
 
-The main goal of the project is to apply OOP concepts in a practical project structure and improve problem-solving and C# programming skills.
+## 🧩 OOP Concepts Used
+
+* Encapsulation
+* Inheritance
+* Abstraction
+* Polymorphism
+* Interfaces
+* Constructors
+* Exception Handling
+* Arrays
+
+## 🛠️ Technologies
+
+* C#
+* .NET
+* Object-Oriented Programming
